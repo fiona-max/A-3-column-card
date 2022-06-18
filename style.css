@@ -1,0 +1,58 @@
+.d-grid {
+   display: grid;
+   grid-template-columns: 14rem 14rem 14rem;
+   grid-template-rows: auto;
+   color: white;
+   text-align: left;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 15px;
+}
+ .body-text{
+    padding: 2.5rem;
+}
+ .btn-sedans{
+    border-radius: 50px;
+    border: 1px white solid;
+    padding: 0.6rem;
+    background-color: rgb(224, 134, 16);
+    color: white;
+}
+ .btn-suvs{
+    border-radius: 50px;
+    border: 1px white solid;
+    padding: 0.6rem;
+    background-color: rgb(9, 134, 84);
+    color: white; 
+}
+ .btn-luxury{
+    border-radius: 50px;
+    border: 1px white solid;
+    padding: 0.6rem;
+    background-color: rgb(10, 65, 22);
+    color: white; 
+}
+ .sedans{
+    background-color: rgb(224, 134, 16);
+}
+ .suvs{
+    background-color: rgb(22, 151, 99);
+
+}
+.luxury{
+    background-color: rgb(10, 65, 22);
+}
+
+
+.d-flex{
+    display: flex;
+    color: white;
+    text-align: left;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
